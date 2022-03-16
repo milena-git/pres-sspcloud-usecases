@@ -1,0 +1,5 @@
+Imports:
+  revealjs,
+  hadley/emo
+Remotes:
+  hadley/emo

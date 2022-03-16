@@ -1,0 +1,39 @@
+---
+title: "The SSP Cloud"
+subtitle: "Examples from an happy user"
+author: Milena Suarez Castillo
+date: March 18, 2022
+output: 
+  revealjs::revealjs_presentation:
+    theme: simple
+    highlight: pygments
+    center: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+#install.packages('revealjs')
+devtools::install_github("hadley/emo")
+
+# Useful links: 
+##https://bookdown.org/yihui/rmarkdown/revealjs.html 
+## https://gist.github.com/rxaviers/7360908
+```
+
+
+# <large> Dynamic Population Mapping </large>
+
+<small> Mobile Phone Data `r emo::ji('telephone_receiver')`and Fine Grained Resident Population Data `r emo::ji('house_with_garden')`</small>
+
+<div class="columns-2">
+<img src="img/animation_paris.gif" style="background:none; border:none; box-shadow:none;" width="450" height="400">
+<img src="img/animation_france.gif" style="background:none; border:none; box-shadow:none;" width="450" height="400">
+</div> 
+
+<small>Objective: Prototyping an experimental statistics in collaboration with a Mobile Network Operator [WPI Deliverable](https://ec.europa.eu/eurostat/cros/system/files/wpi_deliverable_i7_some_experimental_results_with_mobile_network_data_2021_01_31_final.pdf)</small>
+
+
+# Enrich scanner data with product-level features
+
+<img src="img/datasources.png" style="background:none; border:none; box-shadow:none;">
+<small>Objective: consumption characteristics at fine spatial scale</small>
