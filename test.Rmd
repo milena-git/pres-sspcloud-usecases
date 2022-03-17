@@ -1,7 +1,6 @@
 ---
 title: "The SSP Cloud"
-subtitle: "Examples from an happy user"
-author: Milena Suarez Castillo
+author: An happy user
 date: March 18, 2022
 output: 
   revealjs::revealjs_presentation:
